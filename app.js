@@ -11,3 +11,10 @@ const flightPath = {
 /* The below will be my time line */
 const tween = new TimelineLite();
 
+/* Here is where I will start to add the animation to my timeline where I will add parameters such as the object I want to animate(.flying-plane), the duration of the animation(1) and then the properties I want to animate{ using the bezier plugin I added to my html earlier} */
+tween.add(
+    TweenLite.to('.flying-plane', 1, {
+        bezier: flightPath,
+        ease: Power1.easeInOut
+    })
+)
