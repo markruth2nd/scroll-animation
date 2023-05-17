@@ -34,7 +34,8 @@ const controller = new ScrollMagic.Controller();
 /* Below is where I will create the scene for the user and add the trigger, duration element in the {object}*/
 const scene = new ScrollMagic.Scene({
     triggerElement: ".animation",
-    duration: 3000
+    duration: 1000,
+    triggerHook: 0 /* This will alow me to control the trigger position depending where the user is on the page or scroll */
 })
 
 .setTween(tween) /* Here I add the tween timeline so that the user scroll will now control the fling-plane */
