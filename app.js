@@ -2,9 +2,18 @@
 /* Below I am going to create an object which will take in multiple values such as the amount of curve my animation will take to give some motion to my animation. The values will be set in an array where I set the points I want to animate the plane in the Y & X values.*/
 const flightPath = {
     curviness: 1.25,
+    /* This will ensure the plane autorotates with each flightpath I create in the values section */
     autoRotate: true,
     values: [
-        {x: 100, y: -20}
+        /* each { section } will be the chosen flightpath of the plane.png which will later be controlled by the users mouse scroll */
+        {x: 100, y: -20},
+        {x: 300, y: 10},
+        {x: 500, y: 100},
+        {x: 750, y: -100},
+        {x: 350, y: -50},
+        {x: 600, y: 100},
+        {x: 800, y: 0},
+        {x: window.innerWidth, y: -350} /* This last section I am using window.innerWidth to allow the plane to fly off the window */
     ]
 }
 
