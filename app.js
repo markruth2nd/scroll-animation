@@ -13,8 +13,8 @@ const flightPath = {
         {x: 350, y: -50},
         {x: 600, y: 100},
         {x: 800, y: 0},
-        {x: window.innerWidth, y: -350} /* This last section I am using window.innerWidth to allow the plane to fly off the window */
-    ]
+        {x: window.innerWidth, y: -350} 
+    ] /* This last section I am using window.innerWidth to allow the plane to fly off the window */
 }
 
 /* The below will be my time line */
@@ -34,7 +34,7 @@ const controller = new ScrollMagic.Controller();
 /* Below is where I will create the scene for the user and add the trigger, duration element in the {object}*/
 const scene = new ScrollMagic.Scene({
     triggerElement: ".animation",
-    duration: 1000,
+    duration: 4000,
     triggerHook: 0 /* This will alow me to control the trigger position depending where the user is on the page or scroll */
 })
 
@@ -42,5 +42,6 @@ const scene = new ScrollMagic.Scene({
 
 /* To help visualise whats going on we can add indicators */
 .addIndicators()
+.setPin(".animation") /* This will prevent the page from scrolling all the way down past the animation section until the full animation has complete */
 .addTo(controller);
 
