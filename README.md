@@ -1,15 +1,17 @@
 ![Mark](https://img.shields.io/badge/Mark-Contributed-blueviolet)
 
 # scroll-animation
-animation which will be controlled by the users mouse scroll
-
-
+Animation which will be controlled by the users scroll of the mouse, see below for the link and instruction.
 
 
 # Depoloyed Link
+https://markruth2nd.github.io/scroll-animation/
 
+INSTRUCTUONS OF USE: Scroll down the page to see the magic work✈️!! 
 
-INSTRUCTUONS OF USE: 
+You get to control the speed of the plane flying across the screen using the scroll!
+
+Hope you don't get flight sickness..🥴..🤢..🤮
 
 
 ## Introduction
@@ -39,3 +41,17 @@ Background colour which has been pasted in the CSS was copied from https://webgr
 
  
 # Screenshots
+Image prior to animated menu drop
+![Start ](/images/Start.png)
+Image post to animated menu drop
+![Middle1 ](/images/Mid-1.png)
+Image post to animated menu drop
+![Middle2 ](/images/Mid-2.png)
+Image post to animated menu drop
+![Middle3 ](/images/Mid-3.png)
+Image post to animated menu drop
+![Middle4 ](/images/Mid-4.png)
+Image post to animated menu drop
+![Middle5 ](/images/Mid-5.png)
+Image post to animated menu drop
+![End ](/images/post-image.png)
