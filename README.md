@@ -33,5 +33,9 @@ Font: Montserrat Alternates
    - CSSPlugin.min.js is also required in combination to the TweenLite
    - For me to have this animation animate in a certain path I will also require the BezierPlugin.min.js
 
+The plane used for the animation was downloaded from freepnglogos.com  
+
+Background colour which has been pasted in the CSS was copied from https://webgradients.com/
+
  
 # Screenshots
