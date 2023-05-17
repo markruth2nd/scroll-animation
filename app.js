@@ -27,3 +27,19 @@ tween.add(
         ease: Power1.easeInOut
     })
 )
+
+/* Below I will define the control */
+const controller = new ScrollMagic.Controller();
+
+/* Below is where I will create the scene for the user and add the trigger, duration element in the {object}*/
+const scene = new ScrollMagic.Scene({
+    triggerElement: ".animation",
+    duration: 3000
+})
+
+.setTween(tween) /* Here I add the tween timeline so that the user scroll will now control the fling-plane */
+
+/* To help visualise whats going on we can add indicators */
+.addIndicators()
+.addTo(controller);
+
