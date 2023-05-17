@@ -41,17 +41,17 @@ Background colour which has been pasted in the CSS was copied from https://webgr
 
  
 # Screenshots
-Image prior to animated menu drop
+Top of the page when you first load it
 ![Start ](/images/Start.png)
-Image post to animated menu drop
+Beggining of the animation section
 ![Middle1 ](/images/Mid-1.png)
-Image post to animated menu drop
+First quarter of the flight
 ![Middle2 ](/images/Mid-2.png)
-Image post to animated menu drop
+Half way through the flight, hope you like loopy loops
 ![Middle3 ](/images/Mid-3.png)
-Image post to animated menu drop
+Third quarter of the flight
 ![Middle4 ](/images/Mid-4.png)
-Image post to animated menu drop
+Almost there...
 ![Middle5 ](/images/Mid-5.png)
-Image post to animated menu drop
-![End ](/images/post-image.png)
+Hope you enjoyed your flight!!
+![End ](/images/End.png)
